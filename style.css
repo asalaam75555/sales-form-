@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5; /* better readability */
+  -webkit-text-size-adjust: 100%; /* prevent font scaling on mobile */
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* inherit font styles */
+}
+
+a {
+  text-decoration: underline grey;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+#container{
+    display: flex;
+}
+
+#left-div{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#left-top{
+    flex: 1;
+    padding: 9%;
+}
+
+#left-top svg{
+    width: 25%;
+    margin-bottom: 8%;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+#left-bottom{
+    flex: 1;
+    padding: 0% 9%;
+    display: flex;
+    flex-direction: column;
+}
+
+#grey-p{ 
+    color: grey;
+}
+
+#right-div{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    display: flex;
+    gap: 10px;
+}
+
+#company-pics{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 0%;
+}
+
+#sign-up-footer{
+    display: flex;
+}
+
+#left-bottom-end{
+    display: flex;
+    margin: 9% 0px;
+}
+
+#right-div-header h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+#right-div-header p{
+    color: grey;
+    margin-bottom: 9%;
+}
+
+#right-div-mid div div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+#right-div-mid div div input{
+    width: 100%;
+    margin-bottom: 4%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#sign-up-footer{
+    margin-top: 5%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sign-up-footer button{
+    background-color: grey;
+    color: white;
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#sign-up-footer .line {
+    width: 70px;
+}
+
+#line-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.line  div{
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.line  p{
+    border: 2px solid grey;
+    width: 100%;
+    border-radius: 5px;
+}
